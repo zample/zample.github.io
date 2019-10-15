@@ -2,7 +2,7 @@
 title: Kullback-Leibler散度
 layout: post
 categories: Microeconometrics
-tags: 机器学习
+tags: 统计学习
 ---
 ## Kullback-Leibler散度
 
@@ -14,7 +14,7 @@ KL(p||q)=\int p(x)\ln\frac{p(x)}{q(x)}dx \tag{1}
 $$
 ​	KL散度具有以下几种性质：
 
-1. KL散度不是一个对称量，即 $KL(p||q)\neq KL(q||p)$，可从定义可得出
+1. KL散度不是一个对称量，即![TeX](https://math.jekyllwriter.com/?q=KL(p%7C%7Cq)%5Cneq%20KL(q%7C%7Cp))，可从定义可得出
 
 2. $KL(p||q)\geqslant 0$， 证明如下：
    $$
