@@ -15,7 +15,7 @@ KL(p||q)=\int p(x)\ln\frac{p(x)}{q(x)}dx \tag{1}
 $$
 ​	KL散度具有以下几种性质：
 
-1. KL散度不是一个对称量，即$K L(p \| q) \neq K L(q \| p)$，可从定义可得出
+1. KL散度不是一个对称量，即$K L(p \parallel q) \neq K L(q \parallel p)$，可从定义可得出
 
 2. $KL(p\|q)\geqslant 0$， 证明如下：
 
