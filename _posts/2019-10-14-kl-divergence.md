@@ -3,6 +3,7 @@ title: Kullback-Leibler散度
 layout: post
 categories: Microeconometrics
 tags: 统计学习
+mathjax: 'true'
 ---
 ## Kullback-Leibler散度
 
