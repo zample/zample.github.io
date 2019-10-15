@@ -17,7 +17,7 @@ $$
 
 1. KL散度不是一个对称量，即$K L(p \| q) \neq K L(q \| p)$，可从定义可得出
 
-2. $KL(p||q)\geqslant 0$， 证明如下：
+2. $$KL(p||q)\geqslant 0$$， 证明如下：
 
    $$
    \begin{split}
