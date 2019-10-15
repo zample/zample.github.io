@@ -34,7 +34,7 @@ $$
 
 ​	考虑一种较为特殊的情形：分布$p(x)$和$q(x)$均为高斯分布，它们拥有相同的均值，其中$q(x)$的方差较小，而$p(x)$的方差较大，它们的概率密度函数图如下所示：
 
-![figure1](https://github.com/zample/zample.github.io/blob/master/screenshot/blog/kldivergence/figure1.jpg)
+![figure1](https://github.com/zample/zample.github.io/blob/master/screenshot/blog/kldivergence/figure1.jpg?raw=true)
 
 ​	如何比较$KL(p||q)$与$KL(q||p)$的大小？
 
@@ -42,7 +42,7 @@ $$
 
 ​	考虑一种稍为复杂的情况：$p(x)$为给定的双峰高斯分布，$q(x)$为单峰高斯分布，考虑3种不同的q(x)，如下图所示：（蓝线代表$p(x)$，红线代表$q(x)$。）
 
-![figure2](https://github.com/zample/zample.github.io/blob/master/screenshot/blog/kldivergence/figure2.jpg)
+![figure2](https://github.com/zample/zample.github.io/blob/master/screenshot/blog/kldivergence/figure2.jpg?raw=true)
 
 ​	若计算$KL(p||q)$，则在前两种情况KL散度更大（$q(x)$尾部概率比$p(x)$更快地趋于0），而最后一种情况KL度较小（$KL(p||q)=(43.9, 15.4, 0.97)$）。若计算$KL(q||p)$，则前两种情况散度更小，而最后一种情况KL散度更大（$p(x)$尾部概率比$q(x)$更快地趋于0）（$KL(q||p)=(0.69, 0.69, 3.45)$）。
 
