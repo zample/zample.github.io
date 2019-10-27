@@ -11,7 +11,7 @@ mathjax: 'true'
 
 ​	可通过计算它们的Kullback-Leibler散度（Kullback-Leibler divergence），以下简称为KL散度。KL散度的引入由信息论得来，这里不作介绍。KL散度的计算方式为：
 $$
-KL(p||q)=\int p(x)\ln\frac{p(x)}{q(x)}dx \tag{1}
+KL(p||q)=\int p(x)\ln\frac{p(x)}{q(x)}dx 
 $$
 ​	KL散度具有以下几种性质：
 
