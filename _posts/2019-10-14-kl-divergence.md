@@ -47,4 +47,13 @@ $$
 
 ​	若计算$KL(p\Vert q)​$，则在前两种情况KL散度更大（$q(x)​$尾部概率比$p(x)​$更快地趋于0），而最后一种情况KL度较小（$KL(p\Vert q)=(43.9, 15.4, 0.97)​$）。若计算$KL(q\Vert p)​$，则前两种情况散度更小，而最后一种情况KL散度更大（$p(x)​$尾部概率比$q(x)​$更快地趋于0）（$KL(q\Vert p)=(0.69, 0.69, 3.45)​$）。
 
-​	考虑到KL散度衡量两个分布的相似度，KL散度越小，我们认为两个分布之间越相似（越接近）。在给定$p(x)$的情况下，通过最小化KL散度来得到与$p(x)$最接近的一元高斯分布。若按$KL(p\Vert q)$度量，则我们认为第三种情况下的$q(x)$更接近$p(x)$；若按$KL(q\Vert p)$度量，则我们认为前两种情况下的$q(x)$更接近$p(x)$。（事实上图中所画的三种$p(x)$中前两种为$KL(q\Vert p)$局部极小，后一种为$KL(p\Vert q)​$局部极小）。
+​	考虑到KL散度衡量两个分布的相似度，KL散度越小，我们认为两个分布之间越相似（越接近）。在给定$p(x)$的情况下，通过最小化KL散度来得到与$p(x)$最接近的一元高斯分布。若按$KL(p\Vert q)$度量，则我们认为第三种情况下的$q(x)$更接近$p(x)$；若按$KL(q\Vert p)$度量，则我们认为前两种情况下的$q(x)$更接近$p(x)$。（事实上图中所画的三种$p(x)$中前两种为$KL(q\Vert p)$局部极小，后一种为$KL(p\Vert q)$局部极小）。
+
+
+
+## 参考材料
+
+[PRML读书会第十章 Approximate Inference（近似推断，变分推断，KL散度，平均场， Mean Field ）](https://blog.csdn.net/Nietzsche2015/article/details/43450853)
+
+Bishop C M. Pattern recognition and machine learning[M]. springer, 2006.
+
